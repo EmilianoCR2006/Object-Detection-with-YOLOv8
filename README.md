@@ -5,7 +5,7 @@ This project implements an object detection system using YOLOv8 to detect cars a
 
 ---
 
-##  Tech Stack
+## Tech Stack
 - Python
 - YOLOv8 (Ultralytics)
 - PyTorch
@@ -14,12 +14,12 @@ This project implements an object detection system using YOLOv8 to detect cars a
 
 ---
 
-##  Dataset
+## Dataset
 Custom dataset downloaded from Roboflow in YOLOv8 format, containing annotated images of cars and license plates.
 
 ---
 
-## 🚀 Training
+## Training
 - Model: yolov8n
 - Epochs: 10
 - Image size: 640
@@ -27,12 +27,12 @@ Custom dataset downloaded from Roboflow in YOLOv8 format, containing annotated i
 
 ---
 
-##  Results
+## 📊 Results
 The model successfully detects objects in test images. Bounding boxes correctly identify cars and license plates.
 
 ---
 
-##  Sample Output
+## Sample Output
 
 ![Result 1](0c4c5e0c-d189-4e29-a407-574ffb358d19_-7C-7C_t__Rl7blP77hddWG1GUug_jpg.rf.197e8098b71d25961b848acdc8e56d3b.jpg)
 
