@@ -27,8 +27,11 @@ Custom dataset downloaded from Roboflow in YOLOv8 format, containing annotated i
 
 ---
 
-## 📊 Results
-The model successfully detects objects in test images. Bounding boxes correctly identify cars and license plates.
+## Results
+The model successfully detects cars and license plates in test images.
+
+### Performance Metrics
+- mAP50: ~0.42
 
 ---
 
@@ -49,7 +52,11 @@ The model successfully detects objects in test images. Bounding boxes correctly 
 
 ---
 
-## 💡 Future Improvements
+## Future Improvements
 - Train with more epochs
 - Use larger YOLOv8 models (yolov8s, yolov8m)
 - Improve dataset quality
+
+---
+
+## The model was able to detect cars and license plates with good accuracy. YOLOv8 achieved consistent predictions across test images.
